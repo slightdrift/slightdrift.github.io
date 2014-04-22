@@ -7,7 +7,7 @@ html {
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
   background-repeat: repeat-x;
   background-attachment: fixed;
-  background-position: 20% 50%;
+  background-position: 30% 50%;
   background-color: #000000;
 }
 
