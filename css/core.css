@@ -1,8 +1,6 @@
 html {
-  background-repeat: repeat-x;
-  background-attachment: fixed;
-  background-position: 27% 55%;
   background-color: #eeeeee;
+  overflow: hidden;
 }
 
 
