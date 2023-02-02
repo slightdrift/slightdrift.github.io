@@ -11,10 +11,33 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
     <link rel="manifest" href="/site.webmanifest"/>
     
-  </head>
-  <img border="0" src="/images/slightdrift-2023.png" width="40%"/>
+    <style>
+      
+      html, body {
+        background-color: #eeeeee;
+        overflow: hidden;
+        height: 100%;
+        position: fixed;
+        width: 100%;
+      }
+      
+      #image {
+          width: 40%;
+      }
+      @media only screen and (max-width: 320px) {
+          #image {
+            width: 80%;
+          }
+      }
+      
+    </style>
+    
+  </head>  
 <body>
-<script type="text/javascript">
+  
+  <img id="image" border="0" src="/images/slightdrift-2023.png" />
+  
+  <script type="text/javascript">
 
   var _gaq = _gaq || [];
    _gaq.push(['_setAccount', 'UA-24322958-11']);
