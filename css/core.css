@@ -1,7 +1,7 @@
-html {
+html, body {
   background-color: #eeeeee;
   overflow: hidden;
+  height: 100%;
+  position: fixed;
+  width: 100%;
 }
-
-
-
