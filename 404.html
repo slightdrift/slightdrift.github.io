@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+
     <title>slight drift</title>
     <meta name="description" content="Sample, synthesizer, Max Msp, SuperCollider and guitar based audio artist." />
     <meta name="keywords" content="8bit, chipetunes, music, noise, supercollider, max msp, sound design, ambient, drone, experimental, bass, IDM, electronic, analog, synth, guitar"/> 
@@ -10,60 +12,56 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
     <link rel="manifest" href="/site.webmanifest"/>
-    
-    <style>
-      
-      html, body {
-        background-color: #eeeeee;
-        overflow: hidden;
-        height: 100%;
-        position: fixed;
-        width: 100%;
-      }
-      
-      #image {
-        
-          margin-left: 10%;
-          margin-top: 10%;
-          display: block;
-        
-          /* For mobile phones: */
-          width: 50%;
-      }
-      
-      @media only screen and (min-width: 600px) {
-          /* For tablets: */
-          #image {
-            width: 40%;
-          }
-      }
-      
-      @media only screen and (min-width: 1000px) {
-          /* For desktop: */
-          #image {
-            width: 300px;
-          }
-      }
-    </style>
-    
-  </head>  
-<body>
-  
-  <img id="image" border="0" src="/images/slightdrift-2023.png" />
-  
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-24322958-11']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
   <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // MIT License
+    // https://github.com/rafgraph/spa-github-pages
+    // This script takes the current url and converts the path and query
+    // string into just a query string, and then redirects the browser
+    // to the new url with only a query string and hash fragment,
+    // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
+    // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
+    // Note: this 404.html file must be at least 512 bytes for it to work
+    // with Internet Explorer (it is currently > 512 bytes)
 
-  var _gaq = _gaq || [];
-   _gaq.push(['_setAccount', 'UA-24322958-11']);
-  _gaq.push(['_trackPageview']);
+    // If you're creating a Project Pages site and NOT using a custom domain,
+    // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
+    // This way the code will only replace the route part of the path, and not
+    // the real directory in which the app resides, for example:
+    // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
+    // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
+    // Otherwise, leave pathSegmentsToKeep as 0.
+    var pathSegmentsToKeep = 0;
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    var l = window.location;
+    l.replace(
+      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+      l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+      l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+      (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+      l.hash
+    );
 
-</script>
+  </script>
+</head>
+<body>
+
+  <p>Page not found. You might need to head over to <a href="/">the main page</a></p>
+
 </body>
 </html>
-
